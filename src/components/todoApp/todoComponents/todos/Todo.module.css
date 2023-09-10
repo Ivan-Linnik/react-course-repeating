@@ -1,0 +1,80 @@
+.todoItem {
+    width: 100%;
+    padding: 10px 5px;
+
+    display: grid;
+    grid-template-columns: minmax(10%, 40px) minmax(40%, 1fr) minmax(20%, 70px);
+    align-items: start;
+    gap: 0 5px;
+
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+
+    border: 1px solid snow;
+    border-radius: inherit;
+
+    background-color: #83b1e2;
+    color: snow;
+    transition: all 0.2s ease-in-out;
+
+    user-select: none;
+}
+
+.todoItem:hover {
+    background-color: snow;
+    color: #83b1e2;
+}
+
+.completedTodoItem {
+    color: #c0c0c0ad;
+    border-color: #c0c0c0ad;
+}
+
+.completedTodoItem:hover {
+    color: #c0c0c0ad;
+    background-color: unset;
+}
+
+.itemIcon {
+    height: max-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    font-size: 1.3rem;
+}
+
+.TodoText {
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.itemButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.removeBtn,
+.doneBtn {
+    font-size: 1.3rem;
+
+    transition: transform 0.2s ease-in-out;
+}
+
+.removeBtn:hover {
+    transform: scale(1.1);
+
+    color: #f77676;
+}
+
+.doneBtn:hover {
+    transform: scale(1.1);
+
+    color: #4bbc5c;
+}

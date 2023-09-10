@@ -1,0 +1,121 @@
+.coursesBlock {
+    min-width: 500px;
+    height: 600px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    overflow-y: auto;
+    border: 1px solid snow;
+    border-radius: 6px;
+}
+
+.coursesBlock a {
+    padding: 10px;
+
+    font-size: 1.1rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.coursesBlock a:hover {
+    background-color: #6cbe84;
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.innerWrapper>a {
+    font-size: 1.5rem;
+}
+
+.singleCourse {
+    width: 500px;
+    max-height: 600px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+    font-size: 1rem;
+    font-weight: 100;
+    text-transform: lowercase;
+
+    border: 1px solid snow;
+    border-radius: 6px;
+}
+
+
+.name {
+    width: 100%;
+    margin-top: 20px;
+
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.description {
+    width: 80%;
+    overflow-y: auto;
+
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.description::first-letter {
+    text-transform: uppercase;
+}
+
+.howLong {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-size: 2rem;
+
+}
+
+.price {
+    width: 100%;
+
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: right;
+
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+select {
+    width: 150px;
+
+    font-size: 1.2rem;
+    font-weight: 100;
+
+    color: #83b1e2;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}

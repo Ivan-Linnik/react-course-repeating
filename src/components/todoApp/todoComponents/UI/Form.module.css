@@ -1,0 +1,39 @@
+.Form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.formInput {
+    flex: 2 1 65%;
+    padding: 6px;
+    width: 80%;
+
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+
+    color: #83b1e2;
+    background-color: snow;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 6px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.formInput::placeholder {
+    color: #83b1e2;
+    opacity: 0.5;
+}
+
+.formInput:focus {
+    color: snow;
+    background-color: #83b1e2;
+    border-color: snow;
+}

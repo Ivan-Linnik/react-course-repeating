@@ -1,0 +1,19 @@
+.TodoApp {
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+    border: 1px solid snow;
+    border-radius: 6px;
+}
+
+.appH {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: snow;
+}

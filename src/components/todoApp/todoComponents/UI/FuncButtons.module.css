@@ -1,0 +1,19 @@
+.funcButtons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+
+    color: snow;
+}
+
+.info {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 100;
+    text-align: right;
+}

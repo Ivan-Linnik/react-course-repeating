@@ -1,0 +1,50 @@
+.button {
+    flex: 0 0 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+    border: 1px solid snow;
+    outline: none;
+    border-radius: 6px;
+    background-color: transparent;
+    color: snow;
+
+    transition: all 0.1s ease-in-out;
+
+    user-select: none;
+    cursor: pointer;
+
+    @media screen and (max-width:240px) {
+        flex-grow: 2;
+    }
+}
+
+.button:hover {
+    color: #83b1e2;
+    background-color: snow;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.button:disabled {
+    display: none;
+}
+
+
+[type="submit"] {
+    flex: 2 1 10%;
+
+    padding: 6px 12px;
+
+    font-size: 1rem;
+}
